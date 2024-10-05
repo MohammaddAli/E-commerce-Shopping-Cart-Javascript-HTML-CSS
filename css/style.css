@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    background-color: black;
+    padding: 10px 0;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+.header .title a{
+text-decoration: none;
+color: white;
+}
+.header .sign{
+    width: 50%;
+}
+.header .sign ul{
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;
+    
+}
+.header .sign ul li{
+    margin-right: 20px;
+}
+.header .sign ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.products{
+    margin-top: 20px;
+}
+.product{
+    display: flex;
+    width: 50%;
+    border: 1px solid #ddd;
+}
+.product .img{
+    width: 25%;
+}
+.product img{
+    width: 100%;
+}
+
+.product .description{
+    width: 75%;
+display: flex;
+justify-content: space-between;
+position: relative;
+margin-left: 6px;
+}
+.product .description .text{
+    width: 70%;
+}
+.product .description .text p{
+    margin-top: 5px;
+}
+.product .description .add-to-cart{
+    text-align: right;
+}
+.product .description .add-to-cart .btn{
+    background-color: brown;
+    color: #fff;
+    padding: 10px;
+    margin: 3px;
+    cursor: pointer;
+}
+.product .description .add-to-cart i{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 3px;
+    cursor: pointer;
+}
+
+
+
+.show{
+    display: block;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/login.css"> -->
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="title">
+                    <a href="index.html">
+                        <h1>Shopping Card</h1>
+                    </a>
+                </div>
+                <div class="sign">
+                    <ul>
+                        <li><a href="login.html">Sign in</a></li>
+                        <li><a href="register.html">Register</a></li>
+                    </ul>
+                </div>
+                <!-- <p style="color: white; text-align: left; padding: 5px 0;">${userName}</p>
+                <div class="cart" style="display: flex; position: relative; text-align: right">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="badge"
+                        style="width: 20px; height: 20px; background-color: red; color: white ;border-radius: 50%; text-align: center; line-height: 20px; display: block">1</span>
+                    <div class="listDiv"
+                        style="width: 150px; height: 45px; padding: 10px; background-color: rgb(236, 80, 80); color: white; position: absolute; top: 20px; right: -55px;">
+                        any product is
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="products">
+        </div>
+
+    </div>
+
+<!-- 
+    <div class="cart" style="display: flex; align-items: center; position: relative; justify-content: flex-end;"> 
+        <p style="color: white; margin: 0px 110px;">${userName}</p>
+        <div style="padding: 5px" onclick="showProductsCart()" class="cart-div"><i class="fa-solid fa-cart-shopping"></i></div>
+        <span class="badge"
+            style="width: 20px; height: 20px; background-color: red; color: white ;border-radius: 50%; text-align: center; line-height: 20px; display: block">0</span>
+        <div class="listDiv "
+            style="width: 150px; height: auto; padding: 10px; background-color: rgb(236, 80, 80); color: white; position: absolute; top: 20px; right: -55px; display:none;">
+            All products:
+        </div>
+        <div class="logout">Logout</div>
+    </div> -->
+    <div class="cart" style="display: flex; align-items: center; position: relative; justify-content: flex-end;"> 
+        <p style="color: white; margin: 0px 30px; cursor: pointer;">${userName}</p>
+        <div style="padding: 5px; cursor: pointer;" onclick="showProductsCart()" class="cart-div"><i class="fa-solid fa-cart-shopping"></i></div>
+        <span class="badge"
+            style="width: 20px; height: 20px; background-color: red; color: white ;border-radius: 50%; text-align: center; line-height: 20px; display: block;">0</span>
+        <div class="listDiv "
+            style="width: 150px; height: auto; padding: 10px; background-color: rgb(236, 80, 80); color: white; position: absolute; top: 20px; right: -55px; display:none;">
+            <div class="list"></div>
+            <div class="view-all" style="background-color: blue; padding: 5px;"><a href="./cartProducts.html" style="color: black; text-decoration: none;">View All Prpducts</a>
+        </div>
+        <div class="logout" style="margin-left: 20px; cursor: pointer;">Logout</div>
+     </div>
+
+
+    <script src="js/index.js"></script>
+    <!-- <script src="js/login"></script> -->
+
+</body>
+
+</html>
